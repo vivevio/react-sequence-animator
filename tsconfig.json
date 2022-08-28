@@ -1,5 +1,4 @@
 {
-  "extends": "yoshi-flow-library/tsconfig.flow.json",
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist/esm",
@@ -10,8 +9,27 @@
     "strictNullChecks": false,
     "baseUrl": ".",
     "paths": {
-      "tslib": ["./node_modules/tslib"],
-    }
+      "tslib": [
+        "./node_modules/tslib"
+      ]
+    },
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noEmit": false,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "target": "ES5",
+    "module": "ESNext",
+    "declaration": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
   },
   "include": [
     "src"

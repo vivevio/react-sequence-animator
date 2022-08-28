@@ -22,7 +22,8 @@
     "build:storybook": "yoshi-library storybook build",
     "test": "yoshi-library test",
     "lint": "yoshi-library lint",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "postinstall": "npm run build"
   },
   "husky": {
     "hooks": {
