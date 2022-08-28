@@ -25,11 +25,6 @@
     "posttest": "npm run lint",
     "postinstall": "npm run build"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,ts}": "npm run lint"
   },
