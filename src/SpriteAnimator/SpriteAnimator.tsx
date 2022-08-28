@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './SpriteAnimator.scss';
 import { ease } from '../common';
 import {
   Position,
@@ -119,8 +118,8 @@ export class SpriteAnimator extends React.Component<
     const { width, height, top, left } = getPosition(frame);
 
     return (
-      <div className={styles.wrapper} style={{ width, height }}>
-        <div className={styles.innerWrapper} style={{ top: -top, left: -left }}>
+      <div className="wrapper" style={{ width, height }}>
+        <div className="innerWrapper" style={{ top: -top, left: -left }}>
           {React.Children.only(children)}
         </div>
       </div>
