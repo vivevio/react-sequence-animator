@@ -1,4 +1,3 @@
-dist
 node_modules
 *npm-debug.log
 target
@@ -14,3 +13,4 @@ test/e2e/screenshots
 /*.js
 /*.d.ts
 !wallaby.js
+.DS_Store
