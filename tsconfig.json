@@ -1,5 +1,5 @@
 {
-  "extends": "@wix/yoshi-flow-library/tsconfig.flow.json",
+  "extends": "yoshi-flow-library/tsconfig.flow.json",
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist/esm",
